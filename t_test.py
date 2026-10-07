@@ -5,12 +5,7 @@ import numpy as np
 
 h1 = pd.read_csv("f_h_1.csv")
 c1 = pd.read_csv("f_c_1.csv")
-h2 = pd.read_csv("f_h_2.csv")
-c2 = pd.read_csv("f_c_2.csv")
-h3 = pd.read_csv("f_h_3.csv")
-c3 = pd.read_csv("f_c_3.csv")
-c4 = pd.read_csv("f_c_4.csv")
-c5 = pd.read_csv("f_c_5.csv")
+
 
 data = pd.concat([h1, c1, h2, c2, c4, h3, c4, c5], ignore_index=True)
 
